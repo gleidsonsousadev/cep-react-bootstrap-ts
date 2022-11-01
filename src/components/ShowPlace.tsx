@@ -8,7 +8,7 @@ interface IProps {
 export function ShowPlace({ data }: IProps) {
 	return (
 		<>
-			<Card style={{ width: '18rem' }}>
+			<Card style={{ width: '18rem', marginTop: '15px' }}>
 				<ListGroup variant='flush'>
 					<ListGroup.Item>{data?.logradouro}</ListGroup.Item>
 					<ListGroup.Item>
